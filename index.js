@@ -13,7 +13,7 @@ const pusher = new Pusher({
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:8080', 'http://localhost:4200']
+    origin: ['http://localhost:8080', 'https://cha-soket.netlify.app']
 }))
 
 app.use(express.json())
